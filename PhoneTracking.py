@@ -1,7 +1,7 @@
 import cv2
 from random import randrange
 
-trained_phone_data = cv2.CascadeClassifier("haarcascadeandphonev2.xml")
+trained_phone_data = cv2.CascadeClassifier("haarcascadeandphonev3.xml")
 
 # To capture image from webcam
 webcam = cv2.VideoCapture(0)
